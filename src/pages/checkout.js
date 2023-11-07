@@ -51,7 +51,7 @@ const checkout = () => {
       cartTotalPrice
     )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
   );
-  const [activeTab, setActiveTab] = useState(3);
+  const [activeTab, setActiveTab] = useState(2);
   useEffect(() => {
     switch (activeTab) {
       case 4:
@@ -301,10 +301,10 @@ const checkout = () => {
                 </div>
               </div>
             </div>
-            <div className="py-2 px-3 dddd">
+            <div className="py-3 px-3 dddd">
               <div
                 id="divphonepe"
-                className={`form-check available-method ${activeTab === 3 && "active"
+                className={`form-check available-method ${activeTab === 2 && "active"
                   }`}
                 pay-type="phonepe"
                 onClick={() => handleTabClick(2)}
