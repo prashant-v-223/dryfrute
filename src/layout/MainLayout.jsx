@@ -53,6 +53,16 @@ fbq('init', '1301941023855283');
 fbq('track', 'PageView');
 `,
           }}
+        />  
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11146835601"></script>
+      <script
+          dangerouslySetInnerHTML={{
+            __html: ` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11146835601')`,
+          }}
         />
 
       </Head>
