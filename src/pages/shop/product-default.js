@@ -116,22 +116,6 @@ const ProductDefaultPage = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="quantity-color">
-                          <h6 className="widget-title">Color</h6>
-                          <ul className="color-list">
-                            {Array(6)
-                              .fill(null)
-                              .map((_, index) => (
-                                <li
-                                  key={index}
-                                  className={`select-wrap ₹{selectColor === index ? 'selected' : ''}`}
-                                  onClick={() => handleItemClick(index)}
-                                >
-                                  <span />
-                                </li>
-                              ))}
-                          </ul>
-                        </div>
                       </div>
                       <div
                         className="shop-details-btn"
