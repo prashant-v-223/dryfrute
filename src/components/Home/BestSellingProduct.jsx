@@ -47,7 +47,7 @@ const BestSellingProduct = () => {
                   100;
                 return (
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-6"
                     key={i}
                     onClick={() => {
                       localStorage.setItem("selectesdata", JSON.stringify(e));
