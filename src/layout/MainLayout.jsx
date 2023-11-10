@@ -62,7 +62,7 @@ fbq('track', 'PageView');
 
   gtag('config', 'G-R779F0BZK5');`
           }} />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R779F0BZK5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R779F0BZK5" />
       </Head>
         <noscript
           dangerouslySetInnerHTML={{
