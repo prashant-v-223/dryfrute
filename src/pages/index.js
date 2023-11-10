@@ -25,7 +25,6 @@ export default function Home() {
       </Head>
 
       <Banner />
-      <ChooseProduct />
       <div id="Cycling" className="pt-5 mt-5">
         <BestSellingProduct />
       </div>
