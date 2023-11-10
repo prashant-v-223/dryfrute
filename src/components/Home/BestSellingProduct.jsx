@@ -48,6 +48,9 @@ const BestSellingProduct = () => {
                 return (
                   <div
                     className="col-lg-4 col-6"
+                    style={{
+padding:"2px"
+}}
                     key={i}
                     onClick={() => {
                       localStorage.setItem("selectesdata", JSON.stringify(e));
