@@ -254,27 +254,6 @@ const checkout = () => {
         <div>
           <div className="card py-1 my-1">
             <div className="card px-3 py-4 mb-2" id="price-detail">
-              <h3>User Details</h3>
-              <div className="price-detail-div mt-2">
-                <div className="product-price-list my-3">
-                  <span className="title">Fullname</span>
-                  <span className="data discount-amt text-success">
-                    {address123?.name}
-                  </span>
-                </div>
-                <div className="product-price-list my-3">
-                  <span className="title">Delivery Address</span>
-                  <span className="data text-success">
-                    {address123?.address}
-                  </span>
-                </div>
-                <div className="product-price-list mt-3 total">
-                  <span className="title">Phone Number</span>
-                  <span className="data selling_price">
-                    {address123.phone}
-                  </span>
-                </div>
-              </div>
               <h3>Price Details</h3>
               <div className="price-detail-div mt-2">
                 <div className="product-price-list my-3">
