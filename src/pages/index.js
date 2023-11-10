@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
 
       <Banner />
-      <div id="Cycling" className="pt-5 mt-5">
+      <div id="Cycling" className="">
         <BestSellingProduct />
       </div>
       {/* <JustForSection /> */}
