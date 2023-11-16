@@ -45,7 +45,7 @@ const checkout = () => {
   let cancelcartTotalPrice = cancelPriceArray?.reduce((a, b) => a + b);
   const initialTime = 300; // 10 minutes in seconds
   const [time, setTime] = useState(initialTime);
-  let upiid = "mab.037322034880096@axisbank";
+  let upiid = "Pos.11284856@indus";
   const [payment, setPayment] = useState(
     `tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
       cartTotalPrice
